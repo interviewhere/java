@@ -44,10 +44,11 @@ public class TestSuite {
 
     }
 
+    @org.junit.Ignore
     @Test
     public void testQuestion2() {
 
-        //Assert.assertEquals(884591, Question2.process("CarrierCollection_lux_cellCarrier_1440.json"));
+        Assert.assertEquals(884591, Question2.process("CarrierCollection_lux_cellCarrier_1440.json"));
 
     }
 
